@@ -5,6 +5,11 @@ name: Node.js CI
 on:
   push:
     branches: [main]
+  pull_rrrequname: Node.js CI
+
+on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
@@ -35,4 +40,4 @@ jobs:
     - name: Start the bot
       env:
         PORT: 8080
-      run: npm start
+      run: npm startpushh
